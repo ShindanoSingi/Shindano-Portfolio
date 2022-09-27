@@ -1,0 +1,67 @@
+import {makeStyles} from '@material-ui/core';
+import React from 'react';
+import avatar from '../images/avatar.png'
+
+const useStyles = makeStyles((theme) => ({
+     aboutContainer: {
+          backgroundColor: "slategray",
+          minHeight: "100vh",
+          display: 'flex',
+          flexDirection: "column",
+          justifyContent: 'space-around',
+          alignItems: 'center',
+          color: 'rgba(0, 0, 0, 0.87)'
+     },
+
+     span1: {
+          backgroundColor: '#009688',
+          textAlign: 'center',
+          padding: '0  0.5rem',
+          margin: '0 0.5rem'
+     },
+
+     span2: {
+          textAlign: "center",
+          padding: '0rem  0.2rem',
+          margin: '0 0.5rem',
+          boxShadow: 'inset 0 0 1500px rgba(250, 250, 255, .3)'
+     },
+
+     span3: {
+          textDecoration: 'underline',
+          textDecorationColor: '#4DD0E1',
+          marginLeft: '0.5rem'
+     },
+
+     aboutDiv: {
+          backgroundColor: '#009688',
+          fontSize: '3rem'
+     }
+}))
+
+
+const MyPhoto = () => { // const classes = useStyles();
+     return (
+          <div className='grid h-screen font-light bg-zinc-900 roboto place-items-center'>
+               <div className="">
+                    <img src={avatar}
+                         className="w-full h-full lg:w-1/2 lg:mx-auto "
+                         alt="Shindano Singi"/>
+                    <div className="py-1 mx-2 rounded-md lg:flex lg:justify-items-center lg:mx-auto lg:w-1/2 md:mx-4 md:py-4 bg-slate-600">
+                         <h2 className="mx-auto lg:text-4xl  text-white text-2xl md:text-4xl  w-[90vw] text-center 2xl:text-4xl ">I want to
+                              <span className="bg-[#008073] mx-1 px-1">
+                                   make things
+                              </span><br/>
+                              that
+                              <span className="mx-1 underline decoration-[#008073]">
+                                   make a difference
+                              </span>
+                         </h2>
+                    </div>
+               </div>
+
+          </div>
+     );
+}
+
+export default MyPhoto;
