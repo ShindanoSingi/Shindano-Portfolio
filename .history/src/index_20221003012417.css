@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon-style{
+     background-color: #551B54;
+     border: 2px solid #fff;
+     border-radius: 50%;
+     height: 50px;
+     width: 50px;
+     color: #fff;
+     cursor: pointer;
+     animation: movebtn 3s ease-in-out infinite;
+     transition: all .5s ease-in-out;
+}
