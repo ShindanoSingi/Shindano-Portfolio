@@ -184,7 +184,7 @@ const Skills = () => {
                                    <img src={firebase}
                                         className='w-16'
                                         alt=' '/>
-                                   <p className="text-base">Firebase</p>
+                                   <p className="text-base">GitHub</p>
                               </div>
                          </div>
                     </div>

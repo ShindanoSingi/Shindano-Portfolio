@@ -17,7 +17,6 @@ import mysql from '../images/mysql.svg';
 import sql1 from '../images/sql1.svg';
 import heroku from '../images/heroku.svg';
 import netlify from '../images/netlify.svg';
-import firebase from '../images/firebase.svg';
 
 
 const Skills = () => {
@@ -181,10 +180,10 @@ const Skills = () => {
                                    <p className="text-base">GitHub</p>
                               </div>
                               <div className='flex flex-col items-center'>
-                                   <img src={firebase}
+                                   <img src={github}
                                         className='w-16'
                                         alt=' '/>
-                                   <p className="text-base">Firebase</p>
+                                   <p className="text-base">GitHub</p>
                               </div>
                          </div>
                     </div>

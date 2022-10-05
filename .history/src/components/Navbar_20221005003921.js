@@ -286,8 +286,10 @@ const Navbar = () => {
                                              className={
                                                   classes.title
                                         }>
-                                             {/* <span className="hover:bg-[tan] hover:text-[#222]  hover:px-2 hover:rounded-lg"> */}
-                                             Portfolio {/* </span> */} </Typography>
+                                             <span className="hover:bg-[tan] hover:text-[#222]  hover:px-2 hover:rounded-lg">
+                                                  Portfolio
+                                             </span>
+                                        </Typography>
                                    </div>
 
                                    <div className="flex items-center justify-around w-full gap-2">
