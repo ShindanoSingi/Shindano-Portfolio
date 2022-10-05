@@ -292,7 +292,7 @@ const Navbar = () => {
 
                                    <div className="flex items-center justify-around w-full gap-2">
                                         <Link to={'/projects'}>
-                                             <div className="bg-[tan] w-[4.5rem] text-[#222] hidden sm:block   p-1 px-2 rounded-lg">Projects</div>
+                                             <div className="bg-[tan] w-18 text-[#222] hidden sm:block   p-1 px-2 rounded-lg">My Apps</div>
                                         </Link>
                                         <Link to={'/skills'}>
                                              <div className="bg-[tan] text-[#222] px-2 hidden md:block  p-1 rounded-lg">Skills</div>

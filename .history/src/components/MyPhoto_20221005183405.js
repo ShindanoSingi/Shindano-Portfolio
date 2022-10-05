@@ -63,7 +63,7 @@ const MyPhoto = () => {
                     <img src={avatar}
                          className="w-5/6 h-full md:w-1/3 "
                          alt="Shindano Singi"/>
-                    <div className="flex max-w-4xl md:w-[92vw] flex-col items-center justify-center gap-2 py-2 mx-2 rounded-md md:py-4 bg-slate-600">
+                    <div className="flex w-[95vw] md:w-[92vw] flex-col items-center justify-center gap-2 py-2 mx-2 rounded-md md:py-4 bg-slate-600">
                          <div className="flex flex-col items-center justify-center">
                               <Typography className={
                                         classes.title
@@ -87,7 +87,7 @@ const MyPhoto = () => {
                                         loop/>
                               </Typography>
                          </div>
-                         <h2 className="p-1 font-sans text-lg font-light text-center text-gray-300 rounded-lg lg:text-2xl md:text-2xl 2xl:text-2xl">I am a Full Stack Developer with strong skills in backend and front-end of web and mobile applications. I am capable of quickly learning and mastering new technologies and working in both team and self-directed settings. I love solving algorithmically complex problems and have a passion for coding and building applications.
+                         <h2 className="max-w-2xl p-1 font-sans text-lg font-light text-center text-gray-300 rounded-lg  lg:text-2xl md:text-2xl 2xl:text-2xl">I am a Full Stack Developer with strong skills in backend and front-end of web and mobile applications. I am capable of quickly learning and mastering new technologies and working in both team and self-directed settings. I love solving algorithmically complex problems and have a passion for coding and building applications.
                          </h2>
                     </div>
                </div>

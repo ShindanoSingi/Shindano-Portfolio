@@ -63,7 +63,7 @@ const MyPhoto = () => {
                     <img src={avatar}
                          className="w-5/6 h-full md:w-1/3 "
                          alt="Shindano Singi"/>
-                    <div className="flex max-w-4xl md:w-[92vw] flex-col items-center justify-center gap-2 py-2 mx-2 rounded-md md:py-4 bg-slate-600">
+                    <div className="flex max-w-3xl md:w-[92vw] flex-col items-center justify-center gap-2 py-2 mx-2 rounded-md md:py-4 bg-slate-600">
                          <div className="flex flex-col items-center justify-center">
                               <Typography className={
                                         classes.title
