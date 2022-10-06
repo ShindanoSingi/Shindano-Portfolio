@@ -12,11 +12,11 @@ const Education = () => {
                </div>
                <div class="flex mt-[5rem] flex-col mx-auto  justify-center">
                     <div class="block w-[92vw] font-sans text-lg mb-2  rounded-sm shadow-lg bg-white max-w-4xl md:text-xl text-center">
-                         <div class="py-3 flex justify-between px-2 md:px-8 items-center  border-b border-gray-300">
+                         <div class="py-3 flex justify-between px-4  items-center  border-b border-gray-300">
                               <a href="https://generalassemb.ly/" target="_blank" rel='noopener noreferrer'>
                                    <img src={GA}
                                         alt="GA"
-                                        className="w-12 h-12 md:w-12 md:h-12"/>
+                                        className="w-8 h-8 md:w-12 md:h-12"/>
                               </a>
                               <a href="https://generalassemb.ly/" target="_blank" rel='noopener noreferrer'>
                                    <h1 className="px-3 hover:bg-[#E4222A] mt-0.5 font-bold  w-fit">GENERAL ASSEMBLY</h1>
@@ -32,14 +32,14 @@ const Education = () => {
                          </div>
                     </div>
                     <div class="block w-[92vw] font-sans text-lg mb-2  rounded-sm shadow-lg bg-white max-w-4xl md:text-xl text-center">
-                         <div class="py-3 flex justify-between px-2 md:px-8 items-center  border-b border-gray-300">
+                         <div class="py-3 flex justify-between px-4    items-center  border-b border-gray-300">
                               <a href="https://catalog.usm.maine.edu/preview_program.php?catoid=6&poid=1195" target="_blank" rel='noopener noreferrer'>
                                    <img src={USM}
                                         alt="USM"
-                                        className="w-full h-12  md:h-14"/>
+                                        className="w-full h-12 md:full md:h-12"/>
                               </a>
                               <a href="https://catalog.usm.maine.edu/preview_program.php?catoid=6&poid=1195" target="_blank" rel='noopener noreferrer'>
-                                   <h1 className="px-1 hover:bg-[#01529B] hover:text-white font-bold  w-fit mt-0.5">UNIV. OF SOUTEHRN MAINE</h1>
+                                   <h1 className="px-3 hover:bg-[#01529B] hover:text-white font-bold  w-fit mt-0.5">UNIV. OF SOUTEHRN MAINE</h1>
                               </a>
 
                          </div>
@@ -53,7 +53,7 @@ const Education = () => {
                          </div>
                     </div>
                     <div class="block w-[92vw] font-sans text-lg  rounded-sm shadow-lg bg-white max-w-4xl md:text-xl text-center">
-                         <div class="py-3  flex justify-between px-2 md:px-8 items-center  border-b border-gray-300">
+                         <div class="py-3 px-3 flex justify-around  items-center  border-b border-gray-300">
                               <a href="https://www.cmcc.edu/academics/programs/programs-of-study/electromechanical-technology/" target="_blank" rel='noopener noreferrer'>
                                    <img src={cmcc}
                                         alt="CMCC"

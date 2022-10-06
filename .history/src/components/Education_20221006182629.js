@@ -39,7 +39,7 @@ const Education = () => {
                                         className="w-full h-12  md:h-14"/>
                               </a>
                               <a href="https://catalog.usm.maine.edu/preview_program.php?catoid=6&poid=1195" target="_blank" rel='noopener noreferrer'>
-                                   <h1 className="px-1 hover:bg-[#01529B] hover:text-white font-bold  w-fit mt-0.5">UNIV. OF SOUTEHRN MAINE</h1>
+                                   <h1 className="px-3 hover:bg-[#01529B] hover:text-white font-bold  w-fit mt-0.5">UNIV. OF SOUTEHRN MAINE</h1>
                               </a>
 
                          </div>
