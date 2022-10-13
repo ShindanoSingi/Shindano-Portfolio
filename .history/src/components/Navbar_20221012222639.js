@@ -213,7 +213,7 @@ const Navbar = () => {
                }
                component="div">
                <Link to={'/myphoto'}>
-                    <div className="flex items-center justify-center gap-4 pt-2 text-white">
+                    <div className="flex items-center justify-center gap-4 pt-2 overflow-y-scroll text-white">
                          <Avatar className={
                                    classes.avatar
                               }

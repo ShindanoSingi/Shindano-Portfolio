@@ -227,7 +227,7 @@ const Navbar = () => {
                </Link>
 
                <Divider/>
-               <List> {
+               <List className="overflow-y-scroll"> {
                     menuItems.map((item, i) => (
                          <ListItem button
                               key={i}
