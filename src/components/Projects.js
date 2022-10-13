@@ -4,6 +4,7 @@ import youtube from '../images/youtube.gif';
 import userM from '../images/userM.png';
 import weather from '../images/weather.gif';
 import Trivia from '../images/Trivia.png';
+import chat from '../images/chat.gif';
 
 const Projects = () => {
      return (
@@ -15,7 +16,7 @@ const Projects = () => {
                     <div class="flex justify-center pt-20">
                          <div class="flex flex-col font-sans font-light p-2 md:py-6 md:max-w-3xl rounded-lg bg-white md:w shadow-lg">
                               <img class=" w-[22rem] mx-auto h-full md:w-[30rem]  object-cover rounded-t-lg md:rounded-none md:rounded-l-lg"
-                                   src={chatApp}
+                                   src={chat}
                                    alt=""/>
                               <div class="p-4 flex flex-col font-sans font-light justify-start w-max-sm">
                                    <h5 class="text-gray-900 text-xl text-center font-sans font-medium md:text-3xl  mb-4 uppercase">Real-Time Chat App</h5>
