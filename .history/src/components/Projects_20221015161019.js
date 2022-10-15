@@ -28,11 +28,11 @@ const Projects = () => {
                               </div>
 
                               <div class="p-4 flex flex-col font-sans font-light justify-start w-max-sm">
-                                   <h5 class="text-gray-900 text-2xl text-center font-sans font-medium  mb-4 uppercase">Real-Time Chat App</h5>
+                                   <h5 class="text-gray-900 text-lg text-center font-sans font-medium md:text-xl  mb-4 uppercase">Real-Time Chat App</h5>
                                    <li class="text-gray-700 md:text-lg font-sans font-light  text-xl mb-4">
                                         Created an application that enabled users to chat in real time. The goal of the project was to let users chat in privacy. Implemented user sign- up, sign In; room Creation, Update, and Deletion (CRUD). Also, users were able to delete messages. Used SQL, relational database to store users’data. The following technologies were used: Django and SQL for the back end and templates, JavaScript, Vanilla CSS, Materialize, Bootstrap, and TailWindCSS were utilized for the front end.
                                    </li>
-                                   <h6 class="text-gray-900 text-2xl  font-sans font-medium text-center  mb-4">Technologies</h6>
+                                   <h6 class="text-gray-900 text-xl  font-sans font-medium text-center  mb-4">Technologies</h6>
                                    <p class="text-gray-600 italic text-xl md:text-lg font-sans font-light  text-center">Django | SQL | Templates | JavaScript | CSS | Materialize | Bootstrap | TailWindCSS</p>
                               </div>
                          </div>
@@ -63,7 +63,7 @@ const Projects = () => {
                                    <li class="text-gray-700 text-xl font-sans font-light md:text-lg mb-4">
                                         Collaborated with a team of 4 software engineers in a 2-week sprint...
                                    </li>
-                                   <h6 class="text-gray-900 text-2xl font-sans font-medium text-center mb-4">Technologies</h6>
+                                   <h6 class="text-gray-900 text-xl font-sans font-medium text-center mb-4">Technologies</h6>
                                    <p class="text-gray-600 text-xl md:text-lg font-sans font-light  italic text-center">React | CSS | YouTube APIs | Vanilla JavaScript | Materials UI | Bootstrap
                                    </p>
                               </div>
@@ -112,7 +112,7 @@ const Projects = () => {
                                    <li class="text-gray-700 font-sans font-light text-xl md:text-lg mb-4">Made RESTful API fetch calls to an Express, MongoDB, Node.js backend handling all Create, Read, Update and Delete (CRUD) operations, and tested all backend routes during development using Postman.</li>
                                    <li class="text-gray-700 font-sans font-light text-xl  md:text-lg  mb-4">Used Mongoose to define schemas for MongoDB collections, and express for the database.</li>
                                    <li class="text-gray-700 font-sans font-light text-xl  md:text-lg  mb-4">Implemented ES6 tagged template literals with styled-components along CSS3 to provide style and flex-box layout of the application.</li>
-                                   <h6 class="text-gray-900 font-sans font-medium text-2xl text-center mb-4">Technologies</h6>
+                                   <h6 class="text-gray-900 font-sans font-medium text-xl text-center mb-4">Technologies</h6>
                                    <p class="text-gray-600 text-xl font-sans font-light  md:text-lg  italic text-center">Express | MongoDB | Node.js | Vanilla JavaScript | handlebars | EJS | CSS | bootstrap | awesome fonts</p>
                               </div>
                          </div>
@@ -159,7 +159,7 @@ const Projects = () => {
                                         <h5 class="text-gray-900 text-2xl text-center font-sans font-medium  mb-4 uppercase">Trivia</h5>
                                    </a>
                                    <li class="text-gray-700 font-sans font-light md:text-lg text-xl mb-4">Designed a mobile responsive application that utilized an API, Js, and HTML to generate questions and answers. The app had two modes: In the first mode, challenge mode, the user was being challenged based on the difficulty level selected. In the second mode, the learning mode, the user was learning; that is, the user should click on the answer button to see the answer. Used CSS to style the application. Reviewed Code prior to running the application. Did project documentation in README. Followed test procedures to successfully build the application.</li>
-                                   <h6 class="text-gray-900 text-2xl text-center font-medium font-sans  mb-4">Technologies</h6>
+                                   <h6 class="text-gray-900 text-xl text-center font-medium font-sans  mb-4">Technologies</h6>
                                    <p class="text-gray-600 text-xl font-sans font-light md:text-lg italic text-center">API | JavaScript | HTML | CSS | TailWindCSS</p>
                               </div>
                          </div>

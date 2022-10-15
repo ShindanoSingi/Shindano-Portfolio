@@ -279,7 +279,7 @@ const Skills = () => {
                                    <img src={sql} className="w-10 md:w-12 lg:w-16" alt=" " />
                                    <p className="text-base">PostgreSQL</p>
                               </div>
-                              <div className="flex flex-col items-center gap-3 mt-4">
+                              <div className="flex flex-col items-center gap-6 mt-5">
                                    <img
                                         src={mongodb}
                                         className="w-10 md:w-12 lg:w-16"

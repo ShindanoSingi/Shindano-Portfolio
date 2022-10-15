@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "95029ed2d9ca42c7ce03b68a7008fad2",
+    "revision": "f84cc4e74c840e270db43b828f8d3141",
     "url": "/index.html"
   },
   {
-    "revision": "b70dc3e9816ab76cc261",
+    "revision": "8da8a5f4985b200bb809",
     "url": "/static/css/main.8f6e5b5c.chunk.css"
   },
   {
-    "revision": "e685442692a3583fa848",
-    "url": "/static/js/2.218fbc4c.chunk.js"
+    "revision": "83518778653cd918182e",
+    "url": "/static/js/2.815fa0a5.chunk.js"
   },
   {
     "revision": "9ba462087699b371451fc6054eb35f8b",
-    "url": "/static/js/2.218fbc4c.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.815fa0a5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b70dc3e9816ab76cc261",
-    "url": "/static/js/main.f3291248.chunk.js"
+    "revision": "8da8a5f4985b200bb809",
+    "url": "/static/js/main.79394b4a.chunk.js"
   },
   {
     "revision": "430f72daf7c3a4d42642",
@@ -160,8 +160,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/outlook.8a83469a.svg"
   },
   {
-    "revision": "20147627b6ca6569111f38681acfd63f",
-    "url": "/static/media/pdf.20147627.pdf"
+    "revision": "3ae3d671cf7314592d08e88380dd7dce",
+    "url": "/static/media/pdf.3ae3d671.pdf"
   },
   {
     "revision": "cd8d59cc1a57546c600e074015efc5ec",
@@ -210,6 +210,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c7b7d27861432a0c4526a392667e209f",
     "url": "/static/media/vscode.c7b7d278.svg"
+  },
+  {
+    "revision": "4944ae094695a9102c3f83425db2c8de",
+    "url": "/static/media/vue.4944ae09.svg"
   },
   {
     "revision": "1fe8b30dd4ec04535fc5240dc9d5689e",

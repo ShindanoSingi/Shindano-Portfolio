@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.8f6e5b5c.chunk.css",
-    "main.js": "/static/js/main.f3291248.chunk.js",
-    "main.js.map": "/static/js/main.f3291248.chunk.js.map",
+    "main.js": "/static/js/main.79394b4a.chunk.js",
+    "main.js.map": "/static/js/main.79394b4a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.351e9c47.js",
     "runtime-main.js.map": "/static/js/runtime-main.351e9c47.js.map",
-    "static/js/2.218fbc4c.chunk.js": "/static/js/2.218fbc4c.chunk.js",
-    "static/js/2.218fbc4c.chunk.js.map": "/static/js/2.218fbc4c.chunk.js.map",
+    "static/js/2.815fa0a5.chunk.js": "/static/js/2.815fa0a5.chunk.js",
+    "static/js/2.815fa0a5.chunk.js.map": "/static/js/2.815fa0a5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9c2ffbad20d1b5887534e70e24c9da62.js": "/precache-manifest.9c2ffbad20d1b5887534e70e24c9da62.js",
+    "precache-manifest.b4f34c3154e50c29ff6c7cca26c32ccf.js": "/precache-manifest.b4f34c3154e50c29ff6c7cca26c32ccf.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.8f6e5b5c.chunk.css.map": "/static/css/main.8f6e5b5c.chunk.css.map",
-    "static/js/2.218fbc4c.chunk.js.LICENSE.txt": "/static/js/2.218fbc4c.chunk.js.LICENSE.txt",
+    "static/js/2.815fa0a5.chunk.js.LICENSE.txt": "/static/js/2.815fa0a5.chunk.js.LICENSE.txt",
     "static/media/HOL.png": "/static/media/HOL.ffb95c65.png",
     "static/media/Python.png": "/static/media/Python.8c06b458.png",
     "static/media/Trivia.png": "/static/media/Trivia.84d0375a.png",
@@ -46,7 +46,7 @@
     "static/media/netlify.svg": "/static/media/netlify.63153a47.svg",
     "static/media/node js.webp": "/static/media/node js.9a3d5fd0.webp",
     "static/media/outlook.svg": "/static/media/outlook.8a83469a.svg",
-    "static/media/pdf.pdf": "/static/media/pdf.20147627.pdf",
+    "static/media/pdf.pdf": "/static/media/pdf.3ae3d671.pdf",
     "static/media/poormantwitter.gif": "/static/media/poormantwitter.cd8d59cc.gif",
     "static/media/react.svg": "/static/media/react.3df930df.svg",
     "static/media/reactnative.svg": "/static/media/reactnative.fd95a974.svg",
@@ -59,14 +59,15 @@
     "static/media/usm.png": "/static/media/usm.a0212b28.png",
     "static/media/visual.svg": "/static/media/visual.9e6297c5.svg",
     "static/media/vscode.svg": "/static/media/vscode.c7b7d278.svg",
+    "static/media/vue.svg": "/static/media/vue.4944ae09.svg",
     "static/media/weather.gif": "/static/media/weather.1fe8b30d.gif",
     "static/media/youtube.gif": "/static/media/youtube.f57306b5.gif",
     "static/media/zoom.svg": "/static/media/zoom.51fd4e60.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.351e9c47.js",
-    "static/js/2.218fbc4c.chunk.js",
+    "static/js/2.815fa0a5.chunk.js",
     "static/css/main.8f6e5b5c.chunk.css",
-    "static/js/main.f3291248.chunk.js"
+    "static/js/main.79394b4a.chunk.js"
   ]
 }
