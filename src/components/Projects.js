@@ -87,7 +87,7 @@ const Projects = () => {
                                    <h5 class="text-gray-900 text-lg text-center md:text-xl font-sans font-medium mb-4 uppercase">Poor Man's Twitter</h5>
                                    <li class="text-gray-700 font-sans font-light text-xl  mb-4">Created a single-page full-stack web application (poor man’s Twitter) using SQL for the backend, Vue, CSS, TailwindCSS, bootstrap, CSS, and Javascript for the front end.</li>
                                    <h6 class="text-gray-900 text-xl font-sans font-medium text-center mb-4">Technologies</h6>
-                                   <p class="text-gray-600 text-sm font-sans font-light  md:text-lg  italic text-center">SQL | Vue | CSS | Vanilla JavaScript | Templates | bootstrap</p>
+                                   <p class="text-gray-600 text-sm font-sans font-light  md:text-lg  italic text-center">SQL | Django | Vue | CSS | Vanilla JavaScript | Templates | bootstrap</p>
                               </div>
                          </div>
                     </div>

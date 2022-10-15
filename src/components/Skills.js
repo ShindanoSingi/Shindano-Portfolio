@@ -35,6 +35,7 @@ import teams from "../images/teams.svg";
 import zoom from "../images/zoom.svg";
 import slack from "../images/slack.svg";
 import outlook from "../images/outlook.svg";
+import vue from "../images/vue.svg";
 
 
 
@@ -156,6 +157,14 @@ const Skills = () => {
                                              alt=" "
                                         />
                                         <p className="text-base">Java</p>
+                                   </div>
+                                   <div className="flex flex-col items-center">
+                                        <img
+                                             src={vue}
+                                             className="w-10 md:w-12 lg:w-16 fill-lime-600"
+                                             alt=" "
+                                        />
+                                        <p className="text-base">Vue</p>
                                    </div>
                               </div>
                          </div>
