@@ -18,7 +18,7 @@ const Projects = () => {
                          <div class="flex flex-col font-sans font-light p-2 md:py-6 md:max-w-3xl rounded-lg bg-white md:w shadow-lg">
 
                          <div className='flex items-center justify-center gap-4'>
-                         <div className='w-12 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg h-7'></div>
+                         <div className='w-10 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg h-7'></div>
                                    <div>
                                    <img class=" w-[22rem] mx-auto h-full md:w-48  object-cover rounded-t-lg md:rounded-none md:rounded-l-lg"
                                    src={chatApp}
@@ -74,7 +74,7 @@ const Projects = () => {
                          <div class="flex flex-col md:text-lg font-sans font-light p-2 md:py-6 md:max-w-3xl rounded-lg bg-white md:w shadow-lg">
 
                          <div className='flex items-center justify-center gap-4'>
-                         <div className='w-12 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg h-7'></div>
+                         <div className='w-10 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg h-7'>Live</div>
                                    <div>
                                    <img class=" w-[22rem] mx-auto  h-full md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
                                    src={poormantwitter}
@@ -86,7 +86,7 @@ const Projects = () => {
                               <div class="p-4 flex flex-col justify-start w-max-sm">
                                    <h5 class="text-gray-900 text-center text-2xl font-sans font-medium mb-4 uppercase">Poor Man's Twitter</h5>
                                    <li class="text-gray-700 font-sans font-light text-xl  mb-4">Created a single-page full-stack web application (poor man’s Twitter) using SQL for the backend, Vue, CSS, TailwindCSS, bootstrap, CSS, and Javascript for the front end.</li>
-                                   <h6 class="text-gray-900 text-2xl font-sans font-medium text-center mb-4">Technologies</h6>
+                                   <h6 class="text-gray-900 text-xl font-sans font-medium text-center mb-4">Technologies</h6>
                                    <p class="text-gray-600 text-xl font-sans font-light  md:text-lg  italic text-center">SQL | Django | Vue | CSS | Vanilla JavaScript | Templates | bootstrap</p>
                               </div>
                          </div>
@@ -95,7 +95,7 @@ const Projects = () => {
                     <div class="flex justify-center mb-4">
                          <div class="flex flex-col md:text-lg font-sans font-light p-2 md:py-6 md:max-w-3xl rounded-lg bg-white md:w shadow-lg">
                               <div className='flex items-center justify-center gap-4'>
-                              <div className='w-12 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg h-7'></div>
+                              <div className='w-10 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg h-7'></div>
                                    <div>
                                         <img class=" w-[22rem] mx-auto  h-full md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
                                    src={userM}
