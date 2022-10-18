@@ -279,7 +279,7 @@ const Navbar = () => {
                                 </Typography>
                             </div>
 
-                            <div className="flex items-center justify-around w-full">
+                            <div className="flex items-center justify-around w-full gap-2">
                                 <Link to={"/projects"}>
                                     <div className="bg-[tan] w-[4.5rem] text-[#222] hidden sm:block   p-1 px-2 rounded-lg">
                                         Projects

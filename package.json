@@ -26,6 +26,7 @@
     "react-scripts": "3.4.1",
     "react-scroll-to-top": "^3.0.0",
     "react-typed": "^1.2.0",
+    "remixicon": "^2.5.0",
     "tw-elements": "^1.0.0-alpha12"
   },
   "engines": {

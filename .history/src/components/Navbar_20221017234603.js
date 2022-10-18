@@ -133,11 +133,12 @@ const useStyles = makeStyles(theme => ({
         background: "#222",
         margin: 0,
         display: "flex",
-        flexDirection: "row"
+        flexDirection: "row",
+        justifyContent: "space-around"
     },
     arrow: {
         color: "tomato",
-        fontSize: "12rem"
+        fontSize: "8rem"
     },
     title: {
         color: "tan"
@@ -265,8 +266,8 @@ const Navbar = () => {
             <Box component="nav">
                 <AppBar position="fixed" className={classes.appbar}>
                     <Toolbar className="w-screen">
-                        <div className="flex items-center justify-between w-screen">
-                            <div className="flex items-center justify-between">
+                        <div className="flex justify-center gap-4">
+                            <div className="flex items-center gap-2">
                                 <IconButton onClick={() => setOpen(true)}>
                                     <MenuIcon className={classes.arrow} />
                                 </IconButton>
@@ -279,7 +280,7 @@ const Navbar = () => {
                                 </Typography>
                             </div>
 
-                            <div className="flex items-center justify-around w-full">
+                            <div className="flex items-center justify-around w-full gap-2">
                                 <Link to={"/projects"}>
                                     <div className="bg-[tan] w-[4.5rem] text-[#222] hidden sm:block   p-1 px-2 rounded-lg">
                                         Projects

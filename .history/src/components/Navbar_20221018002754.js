@@ -264,8 +264,8 @@ const Navbar = () => {
         <React.Fragment>
             <Box component="nav">
                 <AppBar position="fixed" className={classes.appbar}>
-                    <Toolbar className="w-screen">
-                        <div className="flex items-center justify-between w-screen">
+                    <Toolbar className="flex justify-around w-screen">
+                        <div className="flex items-center justify-between">
                             <div className="flex items-center justify-between">
                                 <IconButton onClick={() => setOpen(true)}>
                                     <MenuIcon className={classes.arrow} />
