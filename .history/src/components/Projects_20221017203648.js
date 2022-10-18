@@ -309,7 +309,7 @@ const Projects = () => {
                         <div className="flex items-center justify-center gap-4">
                             <div className="p-1 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600">
                                 <a
-                                    href="https://shindanosingi.github.io/bembe-trivia/"
+                                    href="https://github.com/ShindanoSingi/bembe-trivia"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
