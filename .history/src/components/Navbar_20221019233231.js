@@ -265,7 +265,7 @@ const Navbar = () => {
             <Box component="nav">
                 <AppBar position="fixed" className={classes.appbar}>
                     <Toolbar className="w-screen">
-                        <div className="flex items-center justify-between gap-4 md:gap-4 w-screen">
+                        <div className="flex items-center justify-between gap-4 md:gap-0 w-screen">
                             <div className="flex items-center justify-between">
                                 <IconButton onClick={() => setOpen(true)}>
                                     <MenuIcon className={classes.arrow} />

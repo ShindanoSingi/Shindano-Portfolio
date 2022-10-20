@@ -327,6 +327,7 @@ const Navbar = () => {
                                     />
                                 </a>
                                 <a
+                                    classNamd="right-4"
                                     href="https://www.linkedin.com/in/shindano-singi/"
                                     target="_blank"
                                     rel="noopener noreferrer"
