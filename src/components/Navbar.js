@@ -128,7 +128,8 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     width: "100vw",
     justifyContent: "space-between",
-    padding: "0 2rem"
+    padding: "0 2rem",
+    gap: "2rem"
   },
 
   menuSliderContainer: {

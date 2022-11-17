@@ -58,7 +58,11 @@ const MyPhoto = () => {
   return (
     <div className="grid h-screen font-sans font-light bg-black place-items-center">
       <div className="flex flex-col items-center bg-black">
-        <img src={avatar} className="w-5/6 h-full " alt="Shindano Singi" />
+        <img
+          src={avatar}
+          className="w-5/6 md:w-[25rem] h-full "
+          alt="Shindano Singi"
+        />
         <div className="flex max-w-4xl md:w-[92vw] flex-col items-center justify-center gap-2 py-2 mx-2 rounded-md md:py-4 bg-slate-600">
           <div className="flex flex-col items-center justify-center">
             <Typography className={classes.title} variant="h4">
@@ -78,7 +82,7 @@ const MyPhoto = () => {
               />
             </Typography>
           </div>
-          <h2 className="p-1 font-bold  text-[tan] text-lg text-center rounded-lg lg:text-2xl md:text-2xl 2xl:text-2xl">
+          <h2 className="p-4 font-bold  text-[tan] text-lg text-center rounded-lg lg:text-2xl md:text-2xl 2xl:text-2xl">
             I am a Full Stack Developer with strong skills in backend and
             front-end of web and mobile applications. I am capable of quickly
             learning and mastering new technologies and working in both team and
