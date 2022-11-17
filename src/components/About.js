@@ -9,8 +9,8 @@ const About = () => {
             ABOUT
           </h5>
         </div>
-        <div class="block text-[tan] font-bold p-4 text-base rounded-lg xl:text-3xl xl:p-8 md:text-xl shadow-lg w-[92vw]">
-          I am a
+        <div class="block text-[tan] font-bold p-4 text-base rounded-lg xl:text-3xl xl:p-8 md:text-xl shadow-lg w-[92vw] md:max-w-3xl lg:max-w-7xl">
+          Hi my name is Shindano Singi. I am a
           <span className="bg-[#009688] px-1 mx-1">Full Stack Developer</span>
           with strong skills in both the
           <span className="bg-[#009688] mx-1 px-1">backend</span>
@@ -41,12 +41,13 @@ const About = () => {
           <br />
           <p>
             I am seeking a role as a
-            <span className="bg-[#009688] p-1 mx-1">Full Stack Developer</span>,
-            <span className="bg-[#009688]text-[tan]  px-1 mx-1">
-              software engineer
+            <span className="bg-[#009688] px-1 mx-1">Full Stack Developer</span>
+            ,
+            <span className="bg-[#009688] text-[tan]  px-1 mx-1">
+              Software Engineer
             </span>
             or
-            <span className="bg-[#009688] px-1 mx-1">software developer</span>
+            <span className="bg-[#009688] px-1 mx-1">Software Developer</span>
             at a company where I can learn, grow, and continue to master the
             craft.
           </p>
