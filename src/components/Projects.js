@@ -5,6 +5,7 @@ import userM from "../images/userM.png";
 import weather from "../images/weather.gif";
 import Trivia from "../images/Trivia.png";
 import poormantwitter from "../images/poormantwitter.gif";
+import expensesTracker from "../images/expenses.png";
 
 const Projects = () => {
   return (
@@ -18,7 +19,7 @@ const Projects = () => {
         <div class="flex justify-center pt-20">
           <div class="flex flex-col font-sans font-light p-2 md:py-6 md:max-w-3xl rounded-lg bg-white md:w shadow-lg">
             <div className="flex items-center justify-center gap-4">
-              <div className="w-12 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg h-7" />
+              <div className="w-16 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg h-7" />
               <div>
                 <img
                   class=" w-[22rem] mx-auto h-full md:w-48  object-cover rounded-t-lg md:rounded-none md:rounded-l-lg"
@@ -26,7 +27,7 @@ const Projects = () => {
                   alt=""
                 />
               </div>
-              <div className="p-1 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600">
+              <div className="p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600">
                 <a
                   href="https://github.com/ShindanoSingi/BembeChat"
                   target="_blank"
@@ -66,7 +67,7 @@ const Projects = () => {
           <div class="flex flex-col font-sans font-light p-2 md:py-6 md:max-w-3xl rounded-lg bg-white md:w shadow-lg">
             <div class="p-4 flex flex-col md:text-lg justify-start w-max-sm">
               <div className="flex items-center justify-center gap-4 mb-4">
-                <div className="p-1 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600">
+                <div className="p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600">
                   <a
                     href="https://bembe-tube.netlify.app/"
                     target="_blank"
@@ -82,7 +83,7 @@ const Projects = () => {
                     alt=""
                   />
                 </div>
-                <div className="p-1 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600">
+                <div className="p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600">
                   <a
                     href="https://github.com/ShindanoSingi/bembe-tube"
                     target="_blank"
@@ -132,7 +133,78 @@ const Projects = () => {
         <div class="flex justify-center mb-4">
           <div class="flex flex-col md:text-lg font-sans font-light p-2 md:py-6 md:max-w-3xl rounded-lg bg-white md:w shadow-lg">
             <div className="flex items-center justify-center gap-4">
-              <div className="w-12 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg h-7" />
+              <div className="p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600">
+                <a
+                  href="https://moyo-form.web.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live
+                </a>{" "}
+              </div>
+              <div>
+                <img
+                  class=" w-[22rem] mx-auto  h-full md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
+                  src={expensesTracker}
+                  alt=""
+                />
+              </div>
+              <div className="p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600">
+                <a
+                  href="https://github.com/ShindanoSingi/frontend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>{" "}
+              </div>
+            </div>
+
+            <div class="p-4 flex flex-col justify-start w-max-sm">
+              <h5 class="text-gray-900 text-center text-2xl font-sans font-medium mb-4 uppercase">
+                Revenue And Expenses Tracker
+              </h5>
+              <li class="text-gray-700 font-sans font-light text-xl  mb-4">
+                Created a full-stack web application (Revenue And Expenses
+                Tracker) using SQL for the{" "}
+                <a
+                  className="text-blue-500"
+                  href="https://github.com/ShindanoSingi/backend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  backend
+                </a>
+                {""}, and React, CSS, HTML, bootstrap, CSS and Javascript for
+                the{" "}
+                <a
+                  className="text-blue-500"
+                  href="https://github.com/ShindanoSingi/frontend"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  frontend
+                </a>{" "}
+                for a client living in Africa.
+              </li>
+              <li class="text-gray-700 font-sans font-light text-xl  mb-4">
+                The super user creates users to let them report revenues and
+                expenses. The language used is Swahili (African language).
+              </li>
+              <h6 class="text-gray-900 text-2xl font-sans font-medium text-center mb-4">
+                Technologies
+              </h6>
+              <p class="text-gray-600 text-xl font-sans font-light  md:text-lg  italic text-center">
+                SQL | Django | React | CSS | Vanilla JavaScript | bootstrap
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex justify-center mb-4">
+          <div class="flex flex-col md:text-lg font-sans font-light p-2 md:py-6 md:max-w-3xl rounded-lg bg-white md:w shadow-lg">
+            <div className="flex items-center justify-center gap-4">
+              <div className="w-16 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg h-7" />
               <div>
                 <img
                   class=" w-[22rem] mx-auto  h-full md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
@@ -140,7 +212,7 @@ const Projects = () => {
                   alt=""
                 />
               </div>
-              <div className="p-1 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600">
+              <div className="p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600">
                 <a
                   href="https://github.com/ShindanoSingi/poor-man-twitter"
                   target="_blank"
@@ -174,7 +246,7 @@ const Projects = () => {
         <div class="flex justify-center mb-4">
           <div class="flex flex-col md:text-lg font-sans font-light p-2 md:py-6 md:max-w-3xl rounded-lg bg-white md:w shadow-lg">
             <div className="flex items-center justify-center gap-4">
-              <div className="w-12 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg h-7" />
+              <div className="w-16 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg h-7" />
               <div>
                 <img
                   class=" w-[22rem] mx-auto  h-full md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
@@ -182,7 +254,7 @@ const Projects = () => {
                   alt=""
                 />
               </div>
-              <div className="p-1 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600">
+              <div className="p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600">
                 <a
                   href="https://github.com/ShindanoSingi/Songs-Library"
                   target="_blank"
@@ -240,7 +312,7 @@ const Projects = () => {
         <div class="flex justify-center mb-4">
           <div class="flex flex-col font-sans font-light p-2 md:py-6 md:max-w-3xl rounded-lg bg-white md:w shadow-lg">
             <div className="flex items-center justify-center gap-4">
-              <div className="p-1 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600">
+              <div className="p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600">
                 <a
                   href="https://bembe-weather.netlify.app/"
                   target="_blank"
@@ -256,7 +328,7 @@ const Projects = () => {
                   alt=""
                 />
               </div>
-              <div className="p-1 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600">
+              <div className="p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600">
                 <a
                   href="https://github.com/ShindanoSingi/bembe-weather"
                   target="_blank"
@@ -295,7 +367,7 @@ const Projects = () => {
         <div class="flex justify-center mb-4">
           <div class="flex flex-col font-sans font-light p-2 md:py-6 md:max-w-3xl rounded-lg bg-white md:w shadow-lg">
             <div className="flex items-center justify-center gap-4">
-              <div className="p-1 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600">
+              <div className="p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600">
                 <a
                   href="https://shindanosingi.github.io/bembe-trivia/"
                   target="_blank"
@@ -311,7 +383,7 @@ const Projects = () => {
                   alt=""
                 />
               </div>
-              <div className="p-1 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600">
+              <div className="p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600">
                 <a
                   href="https://github.com/ShindanoSingi/bembe-trivia"
                   target="_blank"
