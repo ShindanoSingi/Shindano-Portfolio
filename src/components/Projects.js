@@ -35,7 +35,7 @@ const Projects = () => {
         >
         <
         /div> <
-        div className = "p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
+        div className = "w-16 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
         <
         a href = "https://github.com/ShindanoSingi/BembeChat"
         target = "_blank"
@@ -78,9 +78,9 @@ const Projects = () => {
         <
         div className = "flex items-center justify-center gap-4 mb-4" >
         <
-        div className = "p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
+        div className = "w-16 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
         <
-        a href = "https://bembe-tube.netlify.app/"
+        a href = "https://bembe-tube.web.app/"
         target = "_blank"
         rel = "noopener noreferrer" >
         Live <
@@ -94,7 +94,7 @@ const Projects = () => {
         >
         <
         /div> <
-        div className = "p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
+        div className = "w-16 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
         <
         a href = "https://github.com/ShindanoSingi/bembe-tube"
         target = "_blank"
@@ -142,7 +142,7 @@ const Projects = () => {
         <
         div className = "flex items-center justify-center gap-4" >
         <
-        div className = "p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
+        div className = "w-16 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
         <
         a href = "https://moyo-form.web.app/"
         target = "_blank"
@@ -158,7 +158,7 @@ const Projects = () => {
         >
         <
         /div> <
-        div className = "p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
+        div className = "w-16 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
         <
         a href = "https://github.com/ShindanoSingi/frontend"
         target = "_blank"
@@ -224,7 +224,7 @@ const Projects = () => {
         >
         <
         /div> <
-        div className = "p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
+        div className = "w-16 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
         <
         a href = "https://github.com/ShindanoSingi/poor-man-twitter"
         target = "_blank"
@@ -274,7 +274,7 @@ const Projects = () => {
         >
         <
         /div> <
-        div className = "p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
+        div className = "w-16 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
         <
         a href = "https://github.com/ShindanoSingi/Songs-Library"
         target = "_blank"
@@ -331,7 +331,7 @@ const Projects = () => {
         <
         div className = "flex items-center justify-center gap-4" >
         <
-        div className = "p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
+        div className = "w-16 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
         <
         a href = "https://bembe-weather.netlify.app/"
         target = "_blank"
@@ -347,7 +347,7 @@ const Projects = () => {
         >
         <
         /div> <
-        div className = "p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
+        div className = "w-16 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
         <
         a href = "https://github.com/ShindanoSingi/bembe-weather"
         target = "_blank"
@@ -388,7 +388,7 @@ const Projects = () => {
         <
         div className = "flex items-center justify-center gap-4" >
         <
-        div className = "p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
+        div className = "w-16 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
         <
         a href = "https://shindanosingi.github.io/bembe-trivia/"
         target = "_blank"
@@ -404,7 +404,7 @@ const Projects = () => {
         >
         <
         /div> <
-        div className = "p-1 w-16 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
+        div className = "w-16 p-1 text-xs text-center bg-blue-400 border border-black rounded-lg hover:bg-amber-600" >
         <
         a href = "https://github.com/ShindanoSingi/bembe-trivia"
         target = "_blank"
